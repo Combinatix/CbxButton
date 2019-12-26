@@ -1,7 +1,17 @@
 # CbxButton
 ### Arduino family - Class for reading a pull-down button on a single pin with debouncing
 
-it provides following functionality
+It provides following methods
+
+```cpp
+CbxButton.down();
+CbxButton.hold();
+CbxButton.up();
+CbxButton.isDown();
+CbxButton.pressTime();
+```
+
+List of all properties and methods
 
 ```c++
 CbxButton(int pin);                 // Constructor (requires pin number)

@@ -3,7 +3,7 @@
 
 it provides following functionality
 
-```
+```c++
 CbxButton(int pin);                 // Constructor (requires pin number)
 unsigned long debounceTime = 20;    // Debounce time in ms (R/W, Optional)
 unsigned long holdAfter = 1000;     // Time in ms after which the Buton.hold returns true (R/W, Optional)
@@ -17,7 +17,7 @@ bool isDown();                      // Returns true if button was pressed during
 
 Example of use:
 
-```
+```c++
 #include "CbxButton.h"
 
 CbxButton btn(3);                           // Button on pin 3, int

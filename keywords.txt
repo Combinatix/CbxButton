@@ -1,0 +1,9 @@
+CbxButton		KEYWORD1
+scan			KEYWORD2
+down			KEYWORD2
+up				KEYWORD2
+hold			KEYWORD2
+pressTime		KEYWORD2
+isDown			KEYWORD2
+debounceTime	KEYWORD2
+holdAfter		KEYWORD2

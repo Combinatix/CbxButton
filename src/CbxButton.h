@@ -36,7 +36,7 @@ public:
 	bool up();							// Returns true if button was released. Reading clears the flag
 	bool hold();						// Returns true if button was pressed for longer than holdAfter. Reading clears the flag
 	unsigned long pressTime();			// Returns how long the button is pressed in ms
-	bool isDown();						// Returns true if button is / was pressed during last scan
+	bool isDown();						// Returns true if button was pressed during last scan
 
 private:
 	unsigned long _lastChange;			// Last state change time
